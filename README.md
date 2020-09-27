@@ -1,6 +1,10 @@
 # Quotes
+#### Personal profile, August 14th 2020
+#### By **Antony K Mathenge**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+
+## Description
+- An application that enables users to add quotes,delete quotes.You can also be able to see already existing and there author and can upvote and downvote quotes.This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
 ## Development server
 
@@ -25,3 +29,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Support and Contact Details
+- For any comments,suggestions,feedback or inquiries, contact me via email: `tonnykogi@gmail.com`
+
+
+- Make contributions to the code.
