@@ -15,6 +15,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { FilterPipePipe } from './filter-pipe.pipe';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
+
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { FilterPipePipe } from './filter-pipe.pipe';
   ],
   imports: [
     BrowserModule,
+    FormsModule,                               // <========== Add this line!
+    ReactiveFormsModule, 
     AppRoutingModule
   ],
   providers: [],
