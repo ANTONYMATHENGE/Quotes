@@ -10,6 +10,7 @@ import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 import { LandingComponent } from './landing/landing.component';
 import { HeaderComponent } from './header/header.component';
 import { DashComponent } from './dash/dash.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DashComponent } from './dash/dash.component';
     QuoteVoteComponent,
     LandingComponent,
     HeaderComponent,
-    DashComponent
+    DashComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
