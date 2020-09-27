@@ -1,15 +1,16 @@
-// import {Directive, ElementRef, Input} from '@angular/core';
-// import {Quote} from './quote';
 
-// @Directive({
-//   selector: '[appHighlight]'
-// })
-// export class HighlightDirective {
+import {Directive, ElementRef, Input} from '@angular/core';
+import {Quote} from '.quote/';
 
-//   @Input() likes: Quote;
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective {
 
-//   constructor(private elem: ElementRef) {
-//       this.elem.nativeElement.style.backgroundColor = '#1fc88d';
-//   }
+  @Input() likes: Quote;
 
-// }
+  constructor(private elem: ElementRef) {
+      this.elem.nativeElement.style.backgroundColor = '#1fc88d';
+  }
+
+}
