@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteBodyComponent } from './quote-body/quote-body.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
-    QuoteBodyComponent
+    QuoteBodyComponent,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
