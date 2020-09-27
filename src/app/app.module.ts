@@ -14,6 +14,7 @@ import { SearchComponent } from './search/search.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { Highlight } from './highlight.directive.directive';
 import { HighlightDirective } from './highlight.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HighlightDirective } from './highlight.directive';
     SearchComponent,
     SidebarComponent,
     Highlight.DirectiveDirective,
-    HighlightDirective
+    HighlightDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
