@@ -11,6 +11,7 @@ import { LandingComponent } from './landing/landing.component';
 import { HeaderComponent } from './header/header.component';
 import { DashComponent } from './dash/dash.component';
 import { SearchComponent } from './search/search.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SearchComponent } from './search/search.component';
     LandingComponent,
     HeaderComponent,
     DashComponent,
-    SearchComponent
+    SearchComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
