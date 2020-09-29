@@ -8,8 +8,10 @@ export class HighlightDirective {
 
   @Input() likes: Quote;
 
-  constructor(private elem: ElementRef) {
-      this.elem.nativeElement.style.backgroundColor = '#1fc88d';
-  }
+
+  constructor(elem:ElementRef) {
+    elem.nativeElement.style.backgroundColor="#834c69"
+   }
 
 }
+

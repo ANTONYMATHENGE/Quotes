@@ -36,7 +36,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule,                               // <========== Add this line!
+    FormsModule,                               
     ReactiveFormsModule, 
     AppRoutingModule
   ],

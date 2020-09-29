@@ -7,7 +7,9 @@
                     <h4 class="text-center title">{{quote.title}}</h4>
                     <div class="del" (click)="toggleQuote(i)"></div>
                 </div>
-                <p class="quote">{{quote.message}}</p>
+                <p class="quote" appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.message}}</p>
+                <p class="quote" *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}>{{quote.message}}</p>
+
                 <h5 id="author">~{{quote.author}}</h5>
                 <app-quote-body *ngIf="quote.showQuote" [quote]="quote" (isComplete)="deleteQuote($event, i)"></app-quote-body>
                 <div class="footer">
