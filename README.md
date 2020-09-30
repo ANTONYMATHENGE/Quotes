@@ -1,5 +1,5 @@
 # Quotes
-#### Personal profile, August 14th 2020
+#### August 30th 2020
 #### By **Antony K Mathenge**
 
 
