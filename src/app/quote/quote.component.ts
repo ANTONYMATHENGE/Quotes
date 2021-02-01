@@ -23,10 +23,10 @@ export class QuoteComponent implements OnInit {
   @Output() myData = new EventEmitter();
   quotes: Quote[] = [
     // tslint:disable-next-line:max-line-length
-    new Quote('Love', 'It was love at first sight, at last sight, at ever and ever sight.', 'Vladimir Nabokov', new Date(2020, 9 - 1, 26), 0, 0),
-    new Quote('Health ', 'To enjoy the glow of good health, you must exercise.', 'Gene Tunney', new Date(2020, 9 - 1, 26), 0, 0),
-    new Quote('Tech ', 'Technology is best when it brings people together.', 'Matt Mullenweg', new Date(2020, 9 - 1, 26), 0, 0),
-    new Quote('Life', 'Simplicity is the ultimate sophistication.', 'Leonardo da Vinci', new Date(2020, 9 - 1, 27), 0, 0),
+    new Quote('Love', 'It was love at first sight, at last sight, at ever and ever sight.', 'Vladimir Nabokov', new Date(2021, 1 - 1, 31), 0, 0),
+    new Quote('Health ', 'To enjoy the glow of good health, you must exercise.', 'Gene Tunney', new Date(2021, 1 - 1, 31), 0, 0),
+    new Quote('Tech ', 'Technology is best when it brings people together.', 'Matt Mullenweg', new Date(2021, 1 - 1, 31), 0, 0),
+    new Quote('Life', 'Simplicity is the ultimate sophistication.', 'Leonardo da Vinci', new Date(2021, 2 - 1, 1), 0, 0),
     // tslint:disable-next-line:max-line-length
     new Quote('Humour ', 'If you could choose one characteristic that would get you through life, choose a sense of humor.', 'Jennifer Jones', new Date(2020, 9 - 1, 27), 0, 0),
     // tslint:disable-next-line:max-line-length
