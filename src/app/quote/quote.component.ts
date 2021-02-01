@@ -28,9 +28,9 @@ export class QuoteComponent implements OnInit {
     new Quote('Tech ', 'Technology is best when it brings people together.', 'Matt Mullenweg', new Date(2021, 1 - 1, 31), 0, 0),
     new Quote('Life', 'Simplicity is the ultimate sophistication.', 'Leonardo da Vinci', new Date(2021, 2 - 1, 1), 0, 0),
     // tslint:disable-next-line:max-line-length
-    new Quote('Humour ', 'If you could choose one characteristic that would get you through life, choose a sense of humor.', 'Jennifer Jones', new Date(2020, 9 - 1, 27), 0, 0),
+    new Quote('Humour ', 'If you could choose one characteristic that would get you through life, choose a sense of humor.', 'Jennifer Jones', new Date(2021, 2 - 1, 1), 0, 0),
     // tslint:disable-next-line:max-line-length
-    new Quote('Wisdom ', 'It is the mark of an educated mind to be able to entertain a thought without accepting it.', 'Aristotle', new Date(2020, 9 - 1, 27), 0, 0)
+    new Quote('Wisdom ', 'It is the mark of an educated mind to be able to entertain a thought without accepting it.', 'Aristotle', new Date(2021, 2 - 1, 1), 0, 0)
   ];
 
   public upvote: true;
