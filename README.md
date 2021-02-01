@@ -1,5 +1,5 @@
 # Quotes
-#### August 30th 2020
+#### JANUARY 30th 2021
 #### By **Antony K Mathenge**
 
 
